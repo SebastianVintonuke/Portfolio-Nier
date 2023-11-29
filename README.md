@@ -1,24 +1,11 @@
-# sokoban
+// --- Web Portfolio --- //
 
-## Project setup
-```
-npm install
-```
+Inspired by the UI of the game Nier Automata
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+// -- Mi Nombre -- //
+// -- Sebastian M. Vintoñuke -- //
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// -- Contacto -- //
+// -- sebastian.m.vintonuke@gmail.com -- //
+// -- https://github.com/SebastianVintonuke -- //
+// -- https://www.linkedin.com/in/sebastian-vintoñuke-7ab06a161/ -- //
