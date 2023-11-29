@@ -1,0 +1,111 @@
+{
+    "LOADER": {
+        "CARGANDO": "加载中",
+        "STARTING_SYSTEM": "启动系统中...",
+        "LABEL_1": "启动系统检查",
+        "LABEL_2": "内存单元检查: 绿色",
+        "LABEL_3": "战术记录: 已启动",
+        "LABEL_4": "地理数据: 加载已启动",
+        "LABEL_5": "生命迹象检查: 绿色",
+        "LABEL_6": "剩余MP检查: 100%",
+        "LABEL_7": "黑匣子温度: 正常",
+        "LABEL_8": "黑匣子内部压力: 正常",
+        "LABEL_9": "激活IFF",
+        "LABEL_10": "激活FCS",
+        "LABEL_11": "启动Pod传输连接",
+        "CONTINUE": "- 点击继续 -"
+    },
+    "CONTACT": {
+        "TITTLE": "联系",
+        "BANNER": "您可以在这里找到与我联系的方式",
+        "SECTIONS": {
+            "FORM": {
+                "TITTLE": "表格",
+                "BANNER": "联系表格",
+                "NAME": "姓名",
+                "EMAIL": "电子邮箱地址",
+                "PHONE": "电话号码 (可选)",
+                "MESSAGE": "信息",
+                "SEND": "发送",
+                "MESSAGE_SENT": "谢谢, 我会尽快与您联系。"
+            },
+            "CV": {
+                "TITTLE": "简历",
+                "BANNER": "我的简历",
+                "DOWNLOAD": "下载"
+            }
+        }
+    },
+    "HOME": {
+        "TITTLE": "首页",
+        "BANNER": "欢迎来到我的网站",
+        "CONTENT": "我是Sebastian Vintoñuke, 是一名程序员/开发人员。目前也是布宜诺斯艾利斯大学的计算机工程学生。我特别关注面向应用程序开发的技术及其领域, 如数据科学、网络安全或网络。我热衷于学习新技术和工作方法。我努力将一切融入我的工作, 以使代码更易读、可信、高效、安全和易维护。",
+        "QUALIFICATION": "软件开发人员",
+        "INTERFACE_INSPIRED_BY": "界面灵感来源于"
+    },
+    "PROJECTS": {
+        "TITTLE": "项目",
+        "BANNER": "这里展示了我的一些项目",
+        "TRY": "试试",
+        "GITHUB": "GitHub",
+        "PROJECTS": {
+            "SOKOBAN": {
+                "TITTLE": "Sokoban网络版",
+                "CONTENT": "Sokoban是一款经典的日本益智游戏, 通常作为电子游戏实现。最初的游戏由Hiroyuki Imabayashi创建, 在1980年与计算机比赛时获胜。Hiroyuki Imabayashi是日本Thinking Rabbit Inc.的总裁。多年来, 针对各种平台推出了许多版本的游戏, 并且不断有新的关卡集问世。Sokoban在日语中意为“仓库管理员”。",
+                "BANNER": "网络迷你游戏 (MEVN: MongoDB、Express、VueJS和NodeJS)"
+            },
+            "RECOMENDIFY": {
+                "TITTLE": "Recomendify",
+                "CONTENT": "Recomendify是一个应用程序, 允许用户获取有关歌曲的数据, 如重要性、循环、排名、聚类, 并获得用户或歌曲的推荐。该应用程序基于Spotify以TSV格式发布的数据库进行分析。我们建模了不同的图形, 这些图形使我们能够应用各种算法来分析其数据。",
+                "BANNER": "图形建模和分析 (JavaScript)"
+            }
+        }
+    },
+    "SYSTEM": {
+        "TITTLE": "系统",
+        "BANNER": "更改设置",
+        "SECTIONS": {
+            "LANGUAGE": {
+                "TITTLE": "语言",
+                "BANNER": "调整语言设置"
+            },
+            "SOUND": {
+                "TITTLE": "声音",
+                "BANNER": "调整声音设置",
+                "LIST": {
+                    "MUSIC": "音乐",
+                    "MUSIC-VOLUME": "音乐音量",
+                    "SOUND-EFFECTS": "声音效果",
+                    "SOUND-EFFECTS-VOLUME": "声音效果音量"
+                }
+            }
+        }
+    },
+    "CV": {
+        "PROFILE": "个人简介",
+        "SKILLS": "技能",
+        "EXPERIENCE": "经验",
+        "EDUCATION": "教育",
+        "LANGUAGES": "语言",
+        "APTITUDES": "能力",
+        "QR": "扫描二维码访问我的网站",
+        "PRESENTATION": "我是Sebastian Vintoñuke, 是一名程序员/开发人员。目前也是布宜诺斯艾利斯大学的计算机工程学生。我特别关注面向应用程序开发的技术及其领域, 如数据科学、网络安全或网络。我热衷于学习新技术和工作方法。我努力将一切融入我的工作, 以使代码更易读、可信、高效、安全和易维护。",
+        "DATE_1": "2022年12月 - 至今",
+        "DATE_2": "2022年6月 - 2022年12月",
+        "ENGLISH": "英语",
+        "SPANISH": "西班牙语",
+        "INF_ENG": "信息工程师 (布宜诺斯艾利斯大学)",
+        "ANALYTICAL": "分析性",
+        "CREATIVE": "创造性",
+        "PROACTIVE": "主动性",
+        "ORDERLY": "有序性",
+        "RETAILER": "细致性"
+    },
+    "NAVBAR": {
+        "MENU": "菜单",
+        "HOME": "首页",
+        "PROJECTS": "项目",
+        "CONTACT": "联系",
+        "SYSTEM": "系统"
+    }
+}

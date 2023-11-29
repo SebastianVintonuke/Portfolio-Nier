@@ -1,0 +1,111 @@
+{
+    "LOADER": {
+        "CARGANDO": "読み込み中",
+        "STARTING_SYSTEM": "-システムを起動中...",
+        "LABEL_1": "システムチェックの開始",
+        "LABEL_2": "メモリユニットのチェック：グリーン",
+        "LABEL_3": "戦術記録：開始",
+        "LABEL_4": "地理データ：読み込み開始",
+        "LABEL_5": "生体機能のチェック：グリーン",
+        "LABEL_6": "残りMPのチェック：100%",
+        "LABEL_7": "ブラックボックスの温度：正常",
+        "LABEL_8": "ブラックボックスの内部圧力：正常",
+        "LABEL_9": "IFFの有効化",
+        "LABEL_10": "FCSの有効化",
+        "LABEL_11": "ポッド転送の接続を開始",
+        "CONTINUE": "- 続行するにはクリックしてください -"
+    },
+    "CONTACT": {
+        "TITTLE": "コンタクト",
+        "BANNER": "ここで私に連絡する方法がいくつかあります",
+        "SECTIONS": {
+            "FORM": {
+                "TITTLE": "フォーム",
+                "BANNER": "お問い合わせフォーム",
+                "NAME": "名前",
+                "EMAIL": "メールアドレス",
+                "PHONE": "電話番号（オプション）",
+                "MESSAGE": "メッセージ",
+                "SEND": "送信",
+                "MESSAGE_SENT": "ありがとうございます。近々ご連絡いたします。"
+            },
+            "CV": {
+                "TITTLE": "履歴書",
+                "BANNER": "私の履歴書",
+                "DOWNLOAD": "ダウンロード"
+            }
+        }
+    },
+    "HOME": {
+        "TITTLE": "ホーム",
+        "BANNER": "私のウェブサイトへようこそ",
+        "CONTENT": "私の名前はSebastian Vintoñukeです。プログラマー/開発者です。現在、ブエノスアイレス大学で情報工学を学んでいます。アプリケーション開発および関連する技術（データサイエンス、サイバーセキュリティ、ネットワークなど）に特に興味があります。新しい技術や作業手法を学ぶことに熱心です。より読みやすく、信頼性があり、効率的で安全、保守可能なコードを作成するために取り入れています。",
+        "QUALIFICATION": "ソフトウェア開発者",
+        "INTERFACE_INSPIRED_BY": "インターフェースのインスパイア元"
+    },
+    "PROJECTS": {
+        "TITTLE": "プロジェクト",
+        "BANNER": "私のプロジェクトをご覧いただけます",
+        "TRY": "試す",
+        "GITHUB": "GitHub",
+        "PROJECTS": {
+            "SOKOBAN": {
+                "TITTLE": "Sokoban Web",
+                "CONTENT": "Sokobanは、日本で生まれたクラシックなパズルゲームで、通常はビデオゲームとして実装されます。オリジナルのゲームは、1980年にHiroyuki Imabayashiによって作成され、彼のゲームでコンピューターに対して競技で勝利しました。Hiroyuki Imabayashiは日本のThinking Rabbit Inc.の社長です。多くのプラットフォーム用に多くのバージョンが登場し、新しいレベルのコレクションが常に作成されています。Sokobanは日本語で「倉庫番」という意味です。",
+                "BANNER": "Webミニゲーム（MEVN：MongoDB、Express、VueJS、NodeJS）"
+            },
+            "RECOMENDIFY": {
+                "TITTLE": "Recomendify",
+                "CONTENT": "Recomendifyは、ユーザーが曲の重要性、サイクル、ランク、クラスタリングを取得したり、ユーザーや曲の推奨事項を取得したりするアプリケーションです。このアプリケーションは、SpotifyがTSV形式で公開したデータベースの分析に基づいて機能します。さまざまなグラフをモデル化し、そのデータを分析するためのさまざまなアルゴリズムを適用できます。",
+                "BANNER": "グラフのモデリングと分析（JavaScript）"
+            }
+        }
+    },
+    "SYSTEM": {
+        "TITTLE": "システム",
+        "BANNER": "設定を変更する",
+        "SECTIONS": {
+            "LANGUAGE": {
+                "TITTLE": "言語",
+                "BANNER": "言語設定の調整"
+            },
+            "SOUND": {
+                "TITTLE": "音声",
+                "BANNER": "音声設定の調整",
+                "LIST": {
+                    "MUSIC": "音楽",
+                    "MUSIC-VOLUME": "音楽の音量",
+                    "SOUND-EFFECTS": "効果音",
+                    "SOUND-EFFECTS-VOLUME": "効果音の音量"
+                }
+            }
+        }
+    },
+    "CV": {
+        "PROFILE": "プロフィール",
+        "SKILLS": "スキル",
+        "EXPERIENCE": "経験",
+        "EDUCATION": "教育",
+        "LANGUAGES": "言語",
+        "APTITUDES": "資質",
+        "QR": "ウェブサイトへのアクセスはQRコードで",
+        "PRESENTATION": "私の名前はSebastian Vintoñukeです。プログラマー/開発者です。現在、ブエノスアイレス大学で情報工学を学んでいます。アプリケーション開発および関連する技術（データサイエンス、サイバーセキュリティ、ネットワークなど）に特に興味があります。新しい技術や作業手法を学ぶことに熱心です。より読みやすく、信頼性があり、効率的で安全、保守可能なコードを作成するために取り入れています。",
+        "DATE_1": "2022年12月 - 現在",
+        "DATE_2": "2022年6月 - 2022年12月",
+        "ENGLISH": "英語",
+        "SPANISH": "スペイン語",
+        "INF_ENG": "情報工学（ブエノスアイレス大学）",
+        "ANALYTICAL": "分析的",
+        "CREATIVE": "クリエイティブ",
+        "PROACTIVE": "積極的",
+        "ORDERLY": "整然とした",
+        "RETAILER": "細部に注意する"
+    },
+    "NAVBAR": {
+        "MENU": "メニュー",
+        "HOME": "ホーム",
+        "PROJECTS": "プロジェクト",
+        "CONTACT": "コンタクト",
+        "SYSTEM": "システム"
+    }
+}

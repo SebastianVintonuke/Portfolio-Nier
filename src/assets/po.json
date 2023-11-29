@@ -1,0 +1,111 @@
+{
+    "LOADER": {
+        "CARGANDO": "CARREGANDO",
+        "STARTING_SYSTEM": "-INICIANDO SISTEMA...",
+        "LABEL_1": "Iniciar verificação do sistema",
+        "LABEL_2": "Verificação da unidade de memória: verde",
+        "LABEL_3": "Registro de táticas: iniciado",
+        "LABEL_4": "Dados geográficos: carga iniciada",
+        "LABEL_5": "Verificação de sinais vitais: verde",
+        "LABEL_6": "Verificação de MP restante: 100%",
+        "LABEL_7": "Temperatura da caixa preta: normal",
+        "LABEL_8": "Pressão interna da caixa preta: normal",
+        "LABEL_9": "Ativar IFF",
+        "LABEL_10": "Ativar FCS",
+        "LABEL_11": "Iniciar conexão para transferência de pod",
+        "CONTINUE": "- Clique para continuar -"
+    },
+    "CONTACT": {
+        "TITTLE": "CONTATO",
+        "BANNER": "Aqui você pode encontrar algumas formas de entrar em contato comigo",
+        "SECTIONS": {
+            "FORM": {
+                "TITTLE": "Formulário",
+                "BANNER": "Formulário de contato",
+                "NAME": "Nome",
+                "EMAIL": "Endereço de E-mail",
+                "PHONE": "Número de Telefone (opcional)",
+                "MESSAGE": "Mensagem",
+                "SEND": "Enviar",
+                "MESSAGE_SENT": "Obrigado, entrarei em contato em breve."
+            },
+            "CV": {
+                "TITTLE": "Currículo",
+                "BANNER": "Meu Currículo",
+                "DOWNLOAD": "Baixar"
+            }
+        }
+    },
+    "HOME": {
+        "TITTLE": "INÍCIO",
+        "BANNER": "Bem-vindo ao meu site",
+        "CONTENT": "Meu nome é Sebastian Vintoñuke, sou programador/desenvolvedor. Atualmente, também sou estudante de Engenharia da Computação na Universidade de Buenos Aires. Tenho interesse especial em tecnologias voltadas para o desenvolvimento de aplicativos e suas áreas, como ciência de dados, cibersegurança ou redes. Considero-me entusiasmado em aprender novas tecnologias e metodologias de trabalho. Incorporo tudo o que me permita criar código mais legível, confiável, eficiente, seguro e sustentável.",
+        "QUALIFICATION": "Desenvolvedor de Software",
+        "INTERFACE_INSPIRED_BY": "Interface inspirada em"
+    },
+    "PROJECTS": {
+        "TITTLE": "PROJETOS",
+        "BANNER": "Aqui você pode ver alguns dos meus projetos",
+        "TRY": "Experimentar",
+        "GITHUB": "GitHub",
+        "PROJECTS": {
+            "SOKOBAN": {
+                "TITTLE": "Sokoban Web",
+                "CONTENT": "Sokoban é um clássico jogo de quebra-cabeça inventado no Japão, geralmente implementado como um videogame. O jogo original foi criado por Hiroyuki Imabayashi, que em 1980 venceu uma competição contra um computador com seu jogo. Hiroyuki Imabayashi é presidente da Thinking Rabbit Inc. no Japão. Ao longo dos anos, muitas versões do jogo surgiram para todas as plataformas e continuam a ser criadas novas coleções de níveis. Sokoban significa 'guardião do armazém' em japonês.",
+                "BANNER": "Minijogo Web (MEVN: MongoDB, Express, VueJS e NodeJS)"
+            },
+            "RECOMENDIFY": {
+                "TITTLE": "Recomendify",
+                "CONTENT": "Recomendify é um aplicativo que permite ao usuário obter dados sobre músicas como: importância, ciclos, faixas, clustering e obter recomendações de usuários ou músicas. O aplicativo funciona com base na análise de um banco de dados liberado pelo Spotify no formato TSV. Modelamos diferentes grafos que nos permitem aplicar diversos algoritmos para análise de seus dados.",
+                "BANNER": "Modelagem e análise de grafos (JavaScript)"
+            }
+        }
+    },
+    "SYSTEM": {
+        "TITTLE": "SISTEMA",
+        "BANNER": "Alterar configurações",
+        "SECTIONS": {
+            "LANGUAGE": {
+                "TITTLE": "Idioma",
+                "BANNER": "Ajustar configurações de idioma"
+            },
+            "SOUND": {
+                "TITTLE": "Som",
+                "BANNER": "Ajustar configurações de som",
+                "LIST": {
+                    "MUSIC": "Música",
+                    "MUSIC-VOLUME": "Volume de música",
+                    "SOUND-EFFECTS": "Efeitos sonoros",
+                    "SOUND-EFFECTS-VOLUME": "Volume de efeitos sonoros"
+                }
+            }
+        }
+    },
+    "CV": {
+        "PROFILE": "PERFIL",
+        "SKILLS": "HABILIDADES",
+        "EXPERIENCE": "EXPERIÊNCIA",
+        "EDUCATION": "EDUCAÇÃO",
+        "LANGUAGES": "IDIOMAS",
+        "APTITUDES": "APTIDÕES",
+        "QR": "Escanee o QR para visitar meu site",
+        "PRESENTATION": "Meu nome é Sebastian Vintoñuke, sou programador/desenvolvedor. Atualmente, também sou estudante de Engenharia da Computação na Universidade de Buenos Aires. Tenho interesse especial em tecnologias voltadas para o desenvolvimento de aplicativos e suas áreas, como ciência de dados, cibersegurança ou redes. Considero-me entusiasmado em aprender novas tecnologias e metodologias de trabalho. Incorporo tudo o que me permita criar código mais legível, confiável, eficiente, seguro e sustentável.",
+        "DATE_1": "dez. 2022 - atualmente",
+        "DATE_2": "jun. 2022 - dez. 2022",
+        "ENGLISH": "Inglês",
+        "SPANISH": "Espanhol",
+        "INF_ENG": "Eng. Informática (UBA)",
+        "ANALYTICAL": "Analítico",
+        "CREATIVE": "Criativo",
+        "PROACTIVE": "Proativo",
+        "ORDERLY": "Organizado",
+        "RETAILER": "Detalhista"
+    },
+    "NAVBAR": {
+        "MENU": "MENU",
+        "HOME": "INÍCIO",
+        "PROJECTS": "PROJETOS",
+        "CONTACT": "CONTATO",
+        "SYSTEM": "SISTEMA"
+    }
+}
