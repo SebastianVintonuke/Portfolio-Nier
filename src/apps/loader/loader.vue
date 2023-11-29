@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class='d-flex justify-content-center'>
-            <span v-if='!loading' class='fs-1 text-primary beat'>{{$t ('LOADER.CONTINUE') }}</span>
+            <span v-if='!loading' ref='scrollTo' class='fs-1 text-center text-primary fw-medium beat'>{{ $t('LOADER.CONTINUE') }}</span>
         </div>
     </div>
 </template>
@@ -68,12 +68,13 @@ export default class Loader extends Vue {
                 this.labels.push(LABELS[this.labelIndex]);
                 this.labelIndex++;
             })
-            .then(()=> {
+            .then(() => {
                 if (this.labelIndex < LABELS.length) {
                     this.animation();
                 } else {
                     this.loading = false;
                     this.$el.addEventListener('click', this.onClick);
+                    this.$nextTick(() => (this.$refs.scrollTo as HTMLElement).scrollIntoView({ behavior: 'smooth', block: 'start' }));
                 }
             });
     }
