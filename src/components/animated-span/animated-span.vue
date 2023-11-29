@@ -1,5 +1,5 @@
 <template>
-    <div class='animated-span'>
+    <div :class='"animated-span " + (isMobile ? "fs-1 tittle-mobile" : "tittle-desktop")'>
     <span v-for='(char, index) in label' :key='index' class='char' :style='charStyles[index]'>
         {{ char }}
     </span>
@@ -14,10 +14,27 @@ export default class AnimatedSpan extends Vue {
     @Prop(String) readonly label!: string;
 
     public charStyles: Array<string> = [];
+    public windowSize = window.innerWidth;
 
     public created(): void {
         this.initializeCharStyles();
         this.showText();
+    }
+
+    public mounted() {
+        window.addEventListener('resize', this.updateWindowSize);
+    }
+
+    public beforeUnmount() {
+        window.removeEventListener('resize', this.updateWindowSize);
+    }
+
+    get isMobile(): boolean {
+        return this.windowSize <= 850;
+    }
+
+    private updateWindowSize(): void {
+        this.windowSize = window.innerWidth;
     }
 
     private initializeCharStyles(): void {
@@ -55,8 +72,16 @@ export default class AnimatedSpan extends Vue {
     display: inline-block;
     color: #3e3c34;
     font-family: 'Rodin', sans-serif;
-    font-size: 50px;
     letter-spacing: 15px;
+    text-shadow: 8px 8px #878574;
+}
+
+.tittle-mobile {
+    text-shadow: 5px 5px #878574;
+}
+
+.tittle-desktop {
+    font-size: 50px;
     text-shadow: 8px 8px #878574;
 }
 
