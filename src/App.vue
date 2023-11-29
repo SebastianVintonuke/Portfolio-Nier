@@ -24,7 +24,7 @@
 <script lang='ts' scoped>
 import { Vue, Options } from 'vue-class-component';
 import { Loader, Home, Projects, Contact, System } from './apps';
-import { NavBar, MosaicArray, Cv } from './components';
+import { NavBar, MosaicArray } from './components';
 import './core/styles.scss';
 
 const INITIAL_MUSIC_VOLUME = 0.5;
@@ -39,8 +39,7 @@ const INITIAL_SOUND_EFFECT_VOLUME = 0.5;
         Projects,
         Contact,
         System,
-        MosaicArray,
-        Cv
+        MosaicArray
     }
 })
 export default class App extends Vue {

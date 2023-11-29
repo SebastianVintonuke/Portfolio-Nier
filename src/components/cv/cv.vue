@@ -12,7 +12,7 @@
                 <div style='height: 45px;'></div>
                 <div class='d-flex flex-column p-5 gap-5'>
                     <div class='d-flex flex-column gap-2'>
-                        <Qr></Qr>
+                        <img style="width: 100%" src='/img/qrcode.svg'>
                         <span class='fs-6 text-center secondary'> {{ $t('CV.QR') }} </span>
                     </div>
                     <div class='d-flex flex-column gap-2'>
@@ -84,7 +84,10 @@
                             <span class='fs-6 primary'> {{ $t('CV.DATE_2') }} </span>
                         </div>
                     </div>
-                    <span class='fs-6 text-center fw-bolder primary'> www.linkedin.com/in/sebastian-vintoñuke </span>
+                    <div class='d-flex flex-column'>
+                        <span class='fs-6 fw-bolder text-end primary'> sebastian-vintonyuke.vercel.app </span>
+                        <span class='fs-6 fw-bolder text-end primary'> www.linkedin.com/in/sebastian-vintoñuke </span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,12 +104,10 @@
 <script lang='ts' scoped>
 import { Vue, Options } from 'vue-class-component';
 import Mosaic from '../mosaic-array/mosaic.vue';
-import Qr from './qr.vue';
 
 @Options({
     components: {
-        Mosaic,
-        Qr
+        Mosaic
     }
 })
 export default class Cv extends Vue {}
