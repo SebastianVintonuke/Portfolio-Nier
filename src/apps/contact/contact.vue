@@ -24,7 +24,7 @@
                             <div class='d-flex flex-column gap-2'>
                                 <div class='align-self-center' style='width: 63mm; height: 89.1mm'>
                                     <Cv
-                                        style='display: flex; position: absolute; transform-origin: top left; transform: scale(0.3);'>
+                                        ref="cv" style='display: flex; position: absolute; transform-origin: top left; transform: scale(0.3);'>
                                     </Cv>
                                 </div>
                                 <Button class='fs-6'
@@ -46,7 +46,6 @@
 <script lang='ts' scoped>
 import { Vue, Options } from 'vue-class-component';
 import { AnimatedSpan, Banner, Card, Menu, Form, Cv, Button } from '../../components';
-import { createApp } from 'vue';
 import jsPDF from 'jspdf';
 
 @Options({
@@ -68,17 +67,18 @@ export default class Contact extends Vue {
     }
 
     public downloadCv(): void {
-        const cvVue = createApp(Cv)
-        const vueInstance = cvVue.mount(document.createElement('div'));
-        const cvEl = vueInstance.$el;
-        if (!cvEl) return;
+        const cvEl = (this.$refs.cv as any).$el;
         const pdf = new jsPDF('portrait', 'mm', 'a4');
+        pdf.setLanguage(this.$i18n.locale.slice(0, 2) as any);
         pdf.html(cvEl, {
             callback: function (pdf) {
-                pdf.save('Sebastian_Vintoñuke.pdf');
-            }
+                pdf.deletePage(2);
+                pdf.deletePage(3);
+                pdf.deletePage(4);
+                pdf.save('Sebastian-Vintoñuke.pdf');
+            },
+            html2canvas: { scale: 0.882 },
         });
-        cvVue.unmount();
     }
 
     public getBannerContent(): string {

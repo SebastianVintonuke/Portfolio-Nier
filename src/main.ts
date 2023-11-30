@@ -6,14 +6,14 @@ const i18n = createI18n({
   locale: navigator.language,
   fallbackLocale: 'en',
   messages: {
+    de: require('./assets/de.json'),
     en: require('./assets/en.json'),
     es: require('./assets/es.json'),
-    po: require('./assets/po.json'),
-    ge: require('./assets/ge.json'),
     fr: require('./assets/fr.json'),
-    jp: require('./assets/jp.json'),
-    ch: require('./assets/ch.json'),
+    ja: require('./assets/ja.json'),
     ko: require('./assets/ko.json'),
+    pt: require('./assets/pt.json'),
+    zh: require('./assets/zh.json')
   }
 });
 

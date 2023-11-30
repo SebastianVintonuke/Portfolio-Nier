@@ -8,36 +8,60 @@
             </div>
         </div>
         <div class='d-flex flex-fill'>
-            <div class='background-secondary' style='width: 35%; height: 100%'>
+            <div class='b-secondary' style='width: 35%; height: 100%'>
                 <div style='height: 45px;'></div>
                 <div class='d-flex flex-column p-5 gap-5'>
                     <div class='d-flex flex-column gap-2'>
-                        <img style="width: 100%" src='/img/qrcode.svg'>
+                        <img style="width: 100%" src='/img/qrcode.jpg'>
                         <span class='fs-6 text-center secondary'> {{ $t('CV.QR') }} </span>
                     </div>
                     <div class='d-flex flex-column gap-2'>
                         <span class='fs-4 secondary'> {{ $t('CV.EDUCATION') }} </span>
-                        <hr style='background: #c9c5ab'>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.INF_ENG') }} </span>
+                        <hr class='b-primary'>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.INF_ENG') }} </span>
+                        </div>
                     </div>
                     <div class='d-flex flex-column gap-2'>
                         <span class='fs-4 secondary'> {{ $t('CV.LANGUAGES') }} </span>
-                        <hr style='background: #c9c5ab'>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.ENGLISH') }} </span>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.SPANISH') }} </span>
+                        <hr class='b-primary'>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.ENGLISH') }} </span>
+                        </div>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.SPANISH') }} </span>
+                        </div>
                     </div>
                     <div class='d-flex flex-column gap-2'>
                         <span class='fs-4 secondary'> {{ $t('CV.APTITUDES') }} </span>
-                        <hr style='background: #c9c5ab'>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.ANALYTICAL') }} </span>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.CREATIVE') }} </span>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.PROACTIVE') }} </span>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.ORDERLY') }} </span>
-                        <span class='fs-6 secondary'> {{ '■ ' + $t('CV.RETAILER') }} </span>
+                        <hr class='b-primary'>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.ANALYTICAL') }} </span>
+                        </div>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.CREATIVE') }} </span>
+                        </div>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.PROACTIVE') }} </span>
+                        </div>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.ORDERLY') }} </span>
+                        </div>
+                        <div class='d-flex align-items-baseline gap-1'>
+                            <div class="dot b-primary"></div>
+                            <span class='fs-6 secondary'> {{ $t('CV.RETAILER') }} </span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class='background-primary' style='width: 65%; height: 100%'>
+            <div class='b-primary' style='width: 65%; height: 100%'>
                 <div style='height: 45px;'></div>
                 <div class='d-flex flex-column px-5 gap-5'>
                     <div class='d-flex flex-column gap-2'>
@@ -46,41 +70,74 @@
                     </div>
                     <div class='d-flex flex-column gap-2'>
                         <span class='fs-4 primary'> {{ $t('CV.PROFILE') }} </span>
-                        <hr style='background: #3e3b34'>
+                        <hr class='b-secondary'>
                         <span class='fs-6 primary'> {{ $t('CV.PRESENTATION') }} </span>
                     </div>
                     <div class='d-flex flex-column gap-2'>
                         <span class='fs-4 primary'> {{ $t('CV.SKILLS') }} </span>
-                        <hr style='background: #3e3b34'>
+                        <hr class='b-secondary'>
                         <div class='d-flex justify-content-around'>
                             <div class='d-flex flex-column gap-2'>
-                                <span class='fs-6 fw-medium primary'> ■ HTML5 </span>
-                                <span class='fs-6 fw-medium primary'> ■ CSS/SASS </span>
-                                <span class='fs-6 fw-medium primary'> ■ JS/TypeScript </span>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> HTML5 </span>
+                                </div>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> CSS /SASS </span>
+                                </div>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> JS /TypeScript </span>
+                                </div>
                             </div>
                             <div class='d-flex flex-column gap-2'>
-                                <span class='fs-6 fw-medium primary'> ■ Vue.js </span>
-                                <span class='fs-6 fw-medium primary'> ■ Node.js </span>
-                                <span class='fs-6 fw-medium primary'> ■ Python </span>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> Vue.js </span>
+                                </div>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> Node.js </span>
+                                </div>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> Python </span>
+                                </div>
                             </div>
                             <div class='d-flex flex-column gap-2'>
-                                <span class='fs-6 fw-medium primary'> ■ C </span>
-                                <span class='fs-6 fw-medium primary'> ■ OOP </span>
-                                <span class='fs-6 fw-medium primary'> ■ TDD </span>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> C </span>
+                                </div>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> OOP </span>
+                                </div>
+                                <div class='d-flex align-items-baseline gap-1'>
+                                    <div class="dot b-secondary"></div>
+                                    <span class='fs-6 fw-medium primary'> TDD </span>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class='d-flex flex-column gap-2'>
                         <span class='fs-4 primary'> {{ $t('CV.EXPERIENCE') }} </span>
-                        <hr style='background: #3e3b34'>
+                        <hr class='b-secondary'>
                         <div class='d-flex align-items-baseline gap-1'>
                             <span class='fs-5 fw-bold primary'> QONTIGO </span>
                             <span class='fs-6 fw-medium primary'> AXIOMA / Deutsche Börse </span>
                         </div>
                         <div class='d-flex flex-column px-4'>
-                            <span class='fs-5 primary'> ■ UI Engineer </span>
+                            <div class='d-flex align-items-baseline gap-2'>
+                                <div class="dot-big b-secondary"></div>
+                                <span class='fs-5 primary'> UI Engineer </span>
+                            </div>
                             <span class='fs-6 primary'> {{ $t('CV.DATE_1') }} </span>
-                            <span class='fs-5 primary'> ■ Trainee Frontend Engineering </span>
+                            <div class='d-flex align-items-baseline gap-2'>
+                                <div class="dot-big b-secondary"></div>
+                                <span class='fs-5 primary'> Trainee Frontend Engineering </span>
+                            </div>
                             <span class='fs-6 primary'> {{ $t('CV.DATE_2') }} </span>
                         </div>
                     </div>
@@ -114,14 +171,25 @@ export default class Cv extends Vue {}
 </script>
 
 <style lang='scss' scoped>
-hr {
-    background: #c9c5ab;
+.dot {
+    width: 11px;
+    height: 11px;
+}
+.dot-big {
+    width: 14px;
+    height: 14px;
 }
 .primary {
     color: #3e3b34;
 }
+.b-primary {
+    background: #c9c5ab;
+}
 .secondary {
     color: #c9c5ab;
+}
+.b-secondary {
+    background: #3e3b34;
 }
 .mosaic-array {
     position: absolute;

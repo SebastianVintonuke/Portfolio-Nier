@@ -15,7 +15,7 @@
                 </div>
                 <div class='d-flex align-items-center p-3' style='flex: 1 1 50%; min-width: 256px'>
                     <List v-if='sectionSelected === "language"' class='fs-4' :listHandler='{
-                        items: ["en", "es", "ge", "fr", "po", "jp", "ch", "ko"],
+                        items: ["en", "es", "de", "fr", "pt", "ja", "zh", "ko"],
                         labels: ["English", "Español", "Deutsch", "Français", "Português", "日本語", "中國人", "한국인"],
                         selected: $i18n.locale,
                         onChange: onlanguageChange
