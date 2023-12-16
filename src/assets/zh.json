@@ -58,6 +58,11 @@
                 "TITTLE": "Recomendify",
                 "CONTENT": "Recomendify是一个应用程序, 允许用户获取有关歌曲的数据, 如重要性、循环、排名、聚类, 并获得用户或歌曲的推荐。该应用程序基于Spotify以TSV格式发布的数据库进行分析。我们建模了不同的图形, 这些图形使我们能够应用各种算法来分析其数据。",
                 "BANNER": "图形建模和分析 (JavaScript)"
+            },
+            "ADVENTOFCODE2023": {
+                "TITTLE": "Advent of Code 2023",
+                "CONTENT": "Advent of Code 是一个由各种技能水平的小型编程难题组成的圣诞日历，可以用你喜欢的任何编程语言解决。人们将其用作面试准备、公司培训、大学课程、练习问题、速度比赛，或者相互挑战。",
+                "BANNER": "编程难题 (Rust) "
             }
         }
     },

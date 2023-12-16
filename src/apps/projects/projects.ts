@@ -24,5 +24,13 @@ export const PROJECTS: Project[] = [{
         imgSrc: '/img/recomendify.jpg',
         demoLink: null,
         gitHubLink: 'https://github.com/SebastianVintonuke/Spotify-Recomendify'
-    },
+    },{
+        id: 'adventofcode2023',
+        tittleToken: 'PROJECTS.PROJECTS.ADVENTOFCODE2023.TITTLE',
+        contentToken: 'PROJECTS.PROJECTS.ADVENTOFCODE2023.CONTENT',
+        bannerToken: 'PROJECTS.PROJECTS.ADVENTOFCODE2023.BANNER',
+        imgSrc: '/img/adventofcode2023.jpg',
+        demoLink: null,
+        gitHubLink: 'https://github.com/SebastianVintonuke/rust-advent-of-code-2023'
+    }
 ]

@@ -58,6 +58,11 @@
                 "TITTLE": "Recomendify",
                 "CONTENT": "Recomendify es una aplicacion que permite al usuario obtener datos sobre canciones como: importancia, ciclos, rangos, clustering y obtener recomendaciones de usuarios o canciones. La aplicacion funciona sobre en analisis de una base de datos liberada por spotify en formato TSV. Se modelan diferentes grafos que nos permiten aplicar sobre ellos diversos algoritmos para el analisis de sus datos.",
                 "BANNER": "Modelado y análisis de grafos (JavaScript)"
+            },
+            "ADVENTOFCODE2023": {
+                "TITTLE": "Advent of Code 2023",
+                "CONTENT": "Advent of Code es un calendario de Adviento de pequeños acertijos de programación para una variedad de conjuntos de habilidades y niveles de habilidad que pueden resolverse en cualquier lenguaje de programación que prefieras. Las personas los utilizan como preparación para entrevistas, entrenamiento empresarial, cursos universitarios, problemas de práctica, una competencia de velocidad o para desafiarse mutuamente.",
+                "BANNER": "Acertijos de Programación (Rust)"
             }
         }
     },
