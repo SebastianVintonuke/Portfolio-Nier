@@ -63,7 +63,7 @@ export default class Loader extends Vue {
     }
 
     protected animation(): void {
-        new Promise(resolve => { setTimeout(() => resolve(null), Math.floor(Math.random() * (500 - 100 + 1)) + 100); })
+        new Promise(resolve => { setTimeout(() => resolve(null), Math.floor(Math.random() * 100)); })
             .then(() => {
                 this.labels.push(LABELS[this.labelIndex]);
                 this.labelIndex++;
