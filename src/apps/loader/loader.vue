@@ -10,7 +10,7 @@
                     <span v-for='(label, index) in labels' :key='index'>{{ $t(label) }}</span>
                 </div>
             </div>
-            <div>
+            <div style="width: 32px;">
                 <div v-if='loading' class='spinner-border text-primary' role='status'> <span class='visually-hidden'></span> </div>
             </div>
         </div>
