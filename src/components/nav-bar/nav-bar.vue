@@ -88,6 +88,7 @@ export default class NavBar extends Vue {
 
     public onChange(tab: string): void {
         this.tabSelected = tab;
+        if (this.isMobileNav()) this.closeMenu();
         this.handler.onChange(tab)
     }
 
