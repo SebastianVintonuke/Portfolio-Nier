@@ -47,9 +47,9 @@ export default class Form extends Vue {
 
     public submit(): void {
         let formIsValid = true;
-        formIsValid = this.updateInput('inputName', this.nameIsValid);
-        formIsValid = this.updateInput('inputEmail', this.emailIsValid);
-        formIsValid = this.updateInput('inputTextArea', this.msgIsValid);
+        formIsValid = this.updateInput('inputName', this.nameIsValid)
+        && this.updateInput('inputEmail', this.emailIsValid)
+        && this.updateInput('inputTextArea', this.msgIsValid);
         if (!formIsValid) return
 
         const templateParams = {
