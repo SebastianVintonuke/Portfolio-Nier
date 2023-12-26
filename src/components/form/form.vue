@@ -15,9 +15,15 @@
             <textarea ref='inputTextArea' class='form-control' :placeholder='$t("CONTACT.SECTIONS.FORM.MESSAGE")'
                 required></textarea>
         </div>
-        <Button v-if='!emailSent' class='fs-6'
-            :buttonHandler='{ label: $t("CONTACT.SECTIONS.FORM.SEND"), icon: "fa fa-arrow-up", onClick: submit }'></Button>
-        <span v-if='emailSent' class='fs-6'>{{ $t("CONTACT.SECTIONS.FORM.MESSAGE_SENT") }}</span>
+        <Button v-if='!emailSent && !emailError' class='fs-6' :buttonHandler='{ label: $t("CONTACT.SECTIONS.FORM.SEND"), icon: "fa fa-arrow-up", onClick: submit }'></Button>
+        <div v-else-if='emailSent' class='d-flex gap-2 fs-6' style="color: #3ba99f">
+            <div class='d-flex align-items-center'><i class="fa fa-sharp fa-solid fa-check"></i></div>
+            <span>{{ $t("CONTACT.SECTIONS.FORM.MESSAGE_SENT") }}</span>
+        </div>
+        <div v-else-if='emailError' class='d-flex gap-3 fs-6' style="color: #cd664d">
+            <div class='d-flex align-items-center'><i class="fa fa-sharp fa-solid fa-exclamation"></i></div>
+            <span>{{ $t("CONTACT.SECTIONS.FORM.MESSAGE_ERROR") }}</span>
+        </div>
     </div>
 </template>
 
@@ -37,6 +43,7 @@ const USER_ID = process.env.VUE_APP_USER_ID;
 })
 export default class Form extends Vue {
     public emailSent = false;
+    public emailError = false;
 
     public submit(): void {
         let formIsValid = true;
@@ -60,6 +67,7 @@ export default class Form extends Vue {
                 this.emailSent = true;
             })
             .catch((error) => {
+                this.emailError = true;
                 console.error(error);
             });
     }

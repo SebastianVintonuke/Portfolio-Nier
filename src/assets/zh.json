@@ -27,7 +27,8 @@
                 "PHONE": "电话号码 (可选)",
                 "MESSAGE": "信息",
                 "SEND": "发送",
-                "MESSAGE_SENT": "谢谢, 我会尽快与您联系。"
+                "MESSAGE_SENT": "谢谢, 我会尽快与您联系。",
+                "MESSAGE_ERROR": "似乎出现了错误。你可以在我的简历中找到我的LinkedIn。"
             },
             "CV": {
                 "TITTLE": "简历",

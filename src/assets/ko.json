@@ -27,7 +27,8 @@
                 "PHONE": "전화 번호 (선택 사항)",
                 "MESSAGE": "메시지",
                 "SEND": "보내기",
-                "MESSAGE_SENT": "감사합니다. 곧 연락드리겠습니다."
+                "MESSAGE_SENT": "감사합니다. 곧 연락드리겠습니다.",
+                "MESSAGE_ERROR": "오류가 발생한 것으로 보입니다. LinkedIn은 이력서에 있습니다."
             },
             "CV": {
                 "TITTLE": "이력서",

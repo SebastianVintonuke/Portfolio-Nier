@@ -27,7 +27,8 @@
                 "PHONE": "Telefonnummer (optional)",
                 "MESSAGE": "Nachricht",
                 "SEND": "Senden",
-                "MESSAGE_SENT": "Vielen Dank, ich werde mich bald bei Ihnen melden."
+                "MESSAGE_SENT": "Vielen Dank, ich werde mich bald bei Ihnen melden.",
+                "MESSAGE_ERROR": "Es scheint, dass ein Fehler aufgetreten ist. Du kannst mein LinkedIn in meinem Lebenslauf finden."
             },
             "CV": {
                 "TITTLE": "Lebenslauf",

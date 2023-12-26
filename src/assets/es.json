@@ -27,7 +27,8 @@
                 "PHONE": "Número de Teléfono (opcional)",
                 "MESSAGE": "Mensaje",
                 "SEND": "Enviar",
-                "MESSAGE_SENT": "Gracias, me pondré en contacto contigo en breve."
+                "MESSAGE_SENT": "Gracias, me pondré en contacto contigo en breve.",
+                "MESSAGE_ERROR": "Al parecer a ocurrido un error, puedes encontrar mi LinkedIn en mi CV."
             },
             "CV": {
                 "TITTLE": "Curriculum",
