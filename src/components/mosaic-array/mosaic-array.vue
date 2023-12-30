@@ -22,14 +22,19 @@ export default class MosaicArray extends Vue {
 
     public mounted(): void {
         window.addEventListener('resize', this.handleResize);
+        screen.orientation.addEventListener('change', this.handleResize);
     }
 
     public destroyed(): void {
         window.removeEventListener('resize', this.handleResize);
+        screen.orientation.removeEventListener('change', this.handleResize);
     }
 
     public handleResize(): void {
-        this.mosaicCount = this.getMosaicCount();
+        this.mosaicCount = 0;
+        new Promise(() => setTimeout(() => {
+            this.mosaicCount = this.getMosaicCount()
+        }, 100));
     }
 
     public getMosaicCount(): number {
