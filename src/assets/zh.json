@@ -64,6 +64,11 @@
                 "TITTLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code 是一个由各种技能水平的小型编程难题组成的圣诞日历，可以用你喜欢的任何编程语言解决。人们将其用作面试准备、公司培训、大学课程、练习问题、速度比赛，或者相互挑战。",
                 "BANNER": "编程难题 (Rust) "
+            },
+            "EVNEWYEAR": {
+                "TITTLE": "Evangelion New Year Timer",
+                "CONTENT": "Evangelion New Year Timer 是一个显示距离下一年剩余时间的计时器。它更像是一个好奇心而不是一个项目；我只花了一个下午。它仅在 PC 和一些平板电脑上可用。它受到我最喜欢的系列之一 Evangelion 中一幕的启发。",
+                "BANNER": "复古计时器 (VueJS)"
             }
         }
     },

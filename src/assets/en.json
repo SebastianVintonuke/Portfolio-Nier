@@ -64,6 +64,11 @@
                 "TITTLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.",
                 "BANNER": "Programming Puzzles (Rust)"
+            },
+            "EVNEWYEAR": {
+                "TITTLE": "Evangelion New Year Timer",
+                "CONTENT": "Evangelion New Year Timer is a timer that displays the time remaining until the next year. It's more of a curiosity than a project; I've only dedicated an afternoon to it. It's only available on PC and some tablets. It's inspired by a scene from one of my favorite series, Evangelion.",
+                "BANNER": "Retro Timer (VueJS)"
             }
         }
     },

@@ -32,5 +32,13 @@ export const PROJECTS: Project[] = [{
         imgSrc: '/img/adventofcode2023.jpg',
         demoLink: null,
         gitHubLink: 'https://github.com/SebastianVintonuke/rust-advent-of-code-2023'
+    },{
+        id: 'evangelion-new-year-timer',
+        tittleToken: 'PROJECTS.PROJECTS.EVNEWYEAR.TITTLE',
+        contentToken: 'PROJECTS.PROJECTS.EVNEWYEAR.CONTENT',
+        bannerToken: 'PROJECTS.PROJECTS.EVNEWYEAR.BANNER',
+        imgSrc: '/img/evnewyear.jpg',
+        demoLink: 'https://evangelion-new-year-timer.vercel.app/',
+        gitHubLink: 'https://github.com/SebastianVintonuke/Evangelion-New-Year-Timer'
     }
 ]

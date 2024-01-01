@@ -64,6 +64,11 @@
                 "TITTLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code é um calendário do Advento de pequenos quebra-cabeças de programação para uma variedade de conjuntos de habilidades e níveis de habilidade que podem ser resolvidos em qualquer linguagem de programação que você goste. As pessoas os usam como preparação para entrevistas, treinamento empresarial, cursos universitários, problemas de prática, uma competição de velocidade ou para desafiar um ao outro.",
                 "BANNER": "Quebra-Cabeças de Programação (Rust)"
+            },
+            "EVNEWYEAR": {
+                "TITTLE": "Evangelion New Year Timer",
+                "CONTENT": "O Evangelion New Year Timer é um temporizador que exibe o tempo restante até o próximo ano. É mais uma curiosidade do que um projeto; dediquei apenas uma tarde a isso. Está disponível apenas em PC e alguns tablets. É inspirado em uma cena de uma das minhas séries favoritas, Evangelion.",
+                "BANNER": "Temporizador Retrô (VueJS)"
             }
         }
     },

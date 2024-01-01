@@ -64,6 +64,11 @@
                 "TITTLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code est un calendrier de l'Avent composé de petits casse-têtes de programmation adaptés à divers ensembles de compétences et niveaux de compétence pouvant être résolus dans le langage de programmation de votre choix. Les gens les utilisent pour se préparer aux entretiens, pour la formation en entreprise, pour les cours universitaires, comme exercices pratiques, lors de concours de vitesse ou pour se défier mutuellement.",
                 "BANNER": "Cas de programmation (Rust)"
+            },
+            "EVNEWYEAR": {
+                "TITTLE": "Evangelion New Year Timer",
+                "CONTENT": "Evangelion New Year Timer est un minuteur qui affiche le temps restant jusqu'à la prochaine année. C'est plus une curiosité qu'un projet ; je n'y ai consacré qu'un après-midi. Il n'est disponible que sur PC et certaines tablettes. Il est inspiré d'une scène de l'une de mes séries préférées, Evangelion.",
+                "BANNER": "Minuteur Rétro (VueJS)"
             }
         }
     },

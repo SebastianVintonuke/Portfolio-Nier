@@ -64,6 +64,11 @@
                 "TITTLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code es un calendario de Adviento de pequeños acertijos de programación para una variedad de conjuntos de habilidades y niveles de habilidad que pueden resolverse en cualquier lenguaje de programación que prefieras. Las personas los utilizan como preparación para entrevistas, entrenamiento empresarial, cursos universitarios, problemas de práctica, una competencia de velocidad o para desafiarse mutuamente.",
                 "BANNER": "Acertijos de Programación (Rust)"
+            },
+            "EVNEWYEAR": {
+                "TITTLE": "Evangelion New Year Timer",
+                "CONTENT": "Evangelion New Year Timer es un temporizador que muestra el tiempo restante hasta el próximo año. Es más una curiosidad que un proyecto; solo le he dedicado una tarde. Únicamente está disponible en PC y algunas tablets. Está inspirado en una escena de una de mis series favoritas, Evangelion.",
+                "BANNER": "Temporizador Retro (VueJS)"
             }
         }
     },
