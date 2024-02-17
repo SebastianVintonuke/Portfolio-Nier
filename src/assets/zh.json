@@ -16,11 +16,11 @@
         "CONTINUE": "- 点击继续 -"
     },
     "CONTACT": {
-        "TITTLE": "联系",
+        "TITLE": "联系",
         "BANNER": "您可以在这里找到与我联系的方式",
         "SECTIONS": {
             "FORM": {
-                "TITTLE": "表格",
+                "TITLE": "表格",
                 "BANNER": "联系表格",
                 "NAME": "姓名",
                 "EMAIL": "电子邮箱地址",
@@ -31,57 +31,62 @@
                 "MESSAGE_ERROR": "似乎出现了错误。你可以在我的简历中找到我的LinkedIn。"
             },
             "CV": {
-                "TITTLE": "简历",
+                "TITLE": "简历",
                 "BANNER": "我的简历",
                 "DOWNLOAD": "下载"
             }
         }
     },
     "HOME": {
-        "TITTLE": "首页",
+        "TITLE": "首页",
         "BANNER": "欢迎来到我的网站",
         "CONTENT": "我是Sebastian Vintoñuke, 是一名程序员/开发人员。目前也是布宜诺斯艾利斯大学的计算机工程学生。我特别关注面向应用程序开发的技术及其领域, 如数据科学、网络安全或网络。我热衷于学习新技术和工作方法。我努力将一切融入我的工作, 以使代码更易读、可信、高效、安全和易维护。",
         "QUALIFICATION": "软件开发人员",
         "INTERFACE_INSPIRED_BY": "界面灵感来源于"
     },
     "PROJECTS": {
-        "TITTLE": "项目",
+        "TITLE": "项目",
         "BANNER": "这里展示了我的一些项目",
         "TRY": "试试",
         "GITHUB": "GitHub",
         "PROJECTS": {
             "SOKOBAN": {
-                "TITTLE": "Sokoban网络版",
+                "TITLE": "Sokoban网络版",
                 "CONTENT": "Sokoban是一款经典的日本益智游戏, 通常作为电子游戏实现。最初的游戏由Hiroyuki Imabayashi创建, 在1980年与计算机比赛时获胜。Hiroyuki Imabayashi是日本Thinking Rabbit Inc.的总裁。多年来, 针对各种平台推出了许多版本的游戏, 并且不断有新的关卡集问世。Sokoban在日语中意为“仓库管理员”。",
                 "BANNER": "网络迷你游戏 (MEVN: MongoDB、Express、VueJS和NodeJS)"
             },
             "RECOMENDIFY": {
-                "TITTLE": "Recomendify",
+                "TITLE": "Recomendify",
                 "CONTENT": "Recomendify是一个应用程序, 允许用户获取有关歌曲的数据, 如重要性、循环、排名、聚类, 并获得用户或歌曲的推荐。该应用程序基于Spotify以TSV格式发布的数据库进行分析。我们建模了不同的图形, 这些图形使我们能够应用各种算法来分析其数据。",
                 "BANNER": "图形建模和分析 (JavaScript)"
             },
             "ADVENTOFCODE2023": {
-                "TITTLE": "Advent of Code 2023",
+                "TITLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code 是一个由各种技能水平的小型编程难题组成的圣诞日历，可以用你喜欢的任何编程语言解决。人们将其用作面试准备、公司培训、大学课程、练习问题、速度比赛，或者相互挑战。",
                 "BANNER": "编程难题 (Rust) "
             },
             "EVNEWYEAR": {
-                "TITTLE": "Evangelion New Year Timer",
+                "TITLE": "Evangelion New Year Timer",
                 "CONTENT": "Evangelion New Year Timer 是一个显示距离下一年剩余时间的计时器。它更像是一个好奇心而不是一个项目；我只花了一个下午。它仅在 PC 和一些平板电脑上可用。它受到我最喜欢的系列之一 Evangelion 中一幕的启发。",
                 "BANNER": "复古计时器 (VueJS)"
+            },
+            "GOJUON": {
+                "TITLE": "五十音",
+                "CONTENT": "Gojuon是一个主要用于移动设备的应用程序。您可以查阅和练习日语写作中使用的两个音节表: 平假名和片假名。",
+                "BANNER": "小游戏 (React和TypeScript)"
             }
         }
     },
     "SYSTEM": {
-        "TITTLE": "系统",
+        "TITLE": "系统",
         "BANNER": "更改设置",
         "SECTIONS": {
             "LANGUAGE": {
-                "TITTLE": "语言",
+                "TITLE": "语言",
                 "BANNER": "调整语言设置"
             },
             "SOUND": {
-                "TITTLE": "声音",
+                "TITLE": "声音",
                 "BANNER": "调整声音设置",
                 "LIST": {
                     "MUSIC": "音乐",

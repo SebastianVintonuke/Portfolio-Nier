@@ -16,11 +16,11 @@
         "CONTINUE": "- Clique para continuar -"
     },
     "CONTACT": {
-        "TITTLE": "CONTATO",
+        "TITLE": "CONTATO",
         "BANNER": "Aqui você pode encontrar algumas formas de entrar em contato comigo",
         "SECTIONS": {
             "FORM": {
-                "TITTLE": "Formulário",
+                "TITLE": "Formulário",
                 "BANNER": "Formulário de contato",
                 "NAME": "Nome",
                 "EMAIL": "Endereço de E-mail",
@@ -31,57 +31,62 @@
                 "MESSAGE_ERROR": "Parece que ocorreu um erro. Você pode encontrar meu LinkedIn no meu CV."
             },
             "CV": {
-                "TITTLE": "Currículo",
+                "TITLE": "Currículo",
                 "BANNER": "Meu Currículo",
                 "DOWNLOAD": "Baixar"
             }
         }
     },
     "HOME": {
-        "TITTLE": "INÍCIO",
+        "TITLE": "INÍCIO",
         "BANNER": "Bem-vindo ao meu site",
         "CONTENT": "Meu nome é Sebastian Vintoñuke, sou programador/desenvolvedor. Atualmente, também sou estudante de Engenharia da Computação na Universidade de Buenos Aires. Tenho interesse especial em tecnologias voltadas para o desenvolvimento de aplicativos e suas áreas, como ciência de dados, cibersegurança ou redes. Considero-me entusiasmado em aprender novas tecnologias e metodologias de trabalho. Incorporo tudo o que me permita criar código mais legível, confiável, eficiente, seguro e sustentável.",
         "QUALIFICATION": "Desenvolvedor de Software",
         "INTERFACE_INSPIRED_BY": "Interface inspirada em"
     },
     "PROJECTS": {
-        "TITTLE": "PROJETOS",
+        "TITLE": "PROJETOS",
         "BANNER": "Aqui você pode ver alguns dos meus projetos",
         "TRY": "Experimentar",
         "GITHUB": "GitHub",
         "PROJECTS": {
             "SOKOBAN": {
-                "TITTLE": "Sokoban Web",
+                "TITLE": "Sokoban Web",
                 "CONTENT": "Sokoban é um clássico jogo de quebra-cabeça inventado no Japão, geralmente implementado como um videogame. O jogo original foi criado por Hiroyuki Imabayashi, que em 1980 venceu uma competição contra um computador com seu jogo. Hiroyuki Imabayashi é presidente da Thinking Rabbit Inc. no Japão. Ao longo dos anos, muitas versões do jogo surgiram para todas as plataformas e continuam a ser criadas novas coleções de níveis. Sokoban significa 'guardião do armazém' em japonês.",
                 "BANNER": "Minijogo Web (MEVN: MongoDB, Express, VueJS e NodeJS)"
             },
             "RECOMENDIFY": {
-                "TITTLE": "Recomendify",
+                "TITLE": "Recomendify",
                 "CONTENT": "Recomendify é um aplicativo que permite ao usuário obter dados sobre músicas como: importância, ciclos, faixas, clustering e obter recomendações de usuários ou músicas. O aplicativo funciona com base na análise de um banco de dados liberado pelo Spotify no formato TSV. Modelamos diferentes grafos que nos permitem aplicar diversos algoritmos para análise de seus dados.",
                 "BANNER": "Modelagem e análise de grafos (JavaScript)"
             },
             "ADVENTOFCODE2023": {
-                "TITTLE": "Advent of Code 2023",
+                "TITLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code é um calendário do Advento de pequenos quebra-cabeças de programação para uma variedade de conjuntos de habilidades e níveis de habilidade que podem ser resolvidos em qualquer linguagem de programação que você goste. As pessoas os usam como preparação para entrevistas, treinamento empresarial, cursos universitários, problemas de prática, uma competição de velocidade ou para desafiar um ao outro.",
                 "BANNER": "Quebra-Cabeças de Programação (Rust)"
             },
             "EVNEWYEAR": {
-                "TITTLE": "Evangelion New Year Timer",
+                "TITLE": "Evangelion New Year Timer",
                 "CONTENT": "O Evangelion New Year Timer é um temporizador que exibe o tempo restante até o próximo ano. É mais uma curiosidade do que um projeto; dediquei apenas uma tarde a isso. Está disponível apenas em PC e alguns tablets. É inspirado em uma cena de uma das minhas séries favoritas, Evangelion.",
                 "BANNER": "Temporizador Retrô (VueJS)"
+            },
+            "GOJUON": {
+                "TITLE": "Gojūon",
+                "CONTENT": "Gojūon é um aplicativo principalmente para dispositivos móveis. Você pode consultar e praticar os dois silabários usados na escrita japonesa: Hiragana e Katakana.",
+                "BANNER": "Minijogo (React e Typescript)"
             }
         }
     },
     "SYSTEM": {
-        "TITTLE": "SISTEMA",
+        "TITLE": "SISTEMA",
         "BANNER": "Alterar configurações",
         "SECTIONS": {
             "LANGUAGE": {
-                "TITTLE": "Idioma",
+                "TITLE": "Idioma",
                 "BANNER": "Ajustar configurações de idioma"
             },
             "SOUND": {
-                "TITTLE": "Som",
+                "TITLE": "Som",
                 "BANNER": "Ajustar configurações de som",
                 "LIST": {
                     "MUSIC": "Música",

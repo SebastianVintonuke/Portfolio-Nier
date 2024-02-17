@@ -16,11 +16,11 @@
         "CONTINUE": "- Klicken Sie, um fortzufahren -"
     },
     "CONTACT": {
-        "TITTLE": "KONTAKT",
+        "TITLE": "KONTAKT",
         "BANNER": "Hier finden Sie einige Möglichkeiten, mich zu kontaktieren",
         "SECTIONS": {
             "FORM": {
-                "TITTLE": "Formular",
+                "TITLE": "Formular",
                 "BANNER": "Kontaktformular",
                 "NAME": "Name",
                 "EMAIL": "E-Mail-Adresse",
@@ -31,57 +31,62 @@
                 "MESSAGE_ERROR": "Es scheint, dass ein Fehler aufgetreten ist. Du kannst mein LinkedIn in meinem Lebenslauf finden."
             },
             "CV": {
-                "TITTLE": "Lebenslauf",
+                "TITLE": "Lebenslauf",
                 "BANNER": "Mein Lebenslauf",
                 "DOWNLOAD": "Herunterladen"
             }
         }
     },
     "HOME": {
-        "TITTLE": "STARTSEITE",
+        "TITLE": "STARTSEITE",
         "BANNER": "Willkommen auf meiner Website",
         "CONTENT": "Mein Name ist Sebastian Vintoñuke und ich bin Programmierer/Entwickler. Derzeit studiere ich auch Informatik an der Universität Buenos Aires. Ich interessiere mich besonders für Technologien im Bereich der Anwendungs­entwicklung und verwandten Bereichen wie Datenwissenschaft, Cybersicherheit oder Netzwerke. Ich bin begeistert davon, neue Technologien und Arbeitsmethoden zu erlernen, um meinen Code lesbarer, zuverlässiger, effizienter, sicherer und wartbarer zu gestalten.",
         "QUALIFICATION": "Softwareentwickler",
         "INTERFACE_INSPIRED_BY": "Schnittstelle inspiriert von"
     },
     "PROJECTS": {
-        "TITTLE": "PROJEKTE",
+        "TITLE": "PROJEKTE",
         "BANNER": "Hier sind einige meiner Projekte",
         "TRY": "Ausprobieren",
         "GITHUB": "GitHub",
         "PROJECTS": {
             "SOKOBAN": {
-                "TITTLE": "Sokoban Web",
+                "TITLE": "Sokoban Web",
                 "CONTENT": "Sokoban ist ein klassisches Puzzle-Spiel, das in Japan erfunden wurde und normalerweise als Videospiel umgesetzt wird. Das Originalspiel wurde von Hiroyuki Imabayashi entwickelt, der 1980 bei einem Wettbewerb gegen einen Computer mit seinem Spiel gewann. Hiroyuki Imabayashi ist Präsident von Thinking Rabbit Inc. in Japan. Im Laufe der Jahre sind viele Versionen des Spiels für alle Plattformen erschienen und es werden ständig neue Level-Kollektionen erstellt. Sokoban bedeutet auf Japanisch 'Lagerhauswächter'.",
                 "BANNER": "Web-Minispiel (MEVN: MongoDB, Express, VueJS und NodeJS)"
             },
             "RECOMENDIFY": {
-                "TITTLE": "Recomendify",
+                "TITLE": "Recomendify",
                 "CONTENT": "Recomendify ist eine Anwendung, mit der Benutzer Daten über Songs wie Bedeutung, Zyklen, Ranges, Clustering erhalten und Empfehlungen von Benutzern oder Songs erhalten können. Die Anwendung basiert auf der Analyse einer von Spotify im TSV-Format freigegebenen Datenbank. Es werden verschiedene Graphen modelliert, auf denen verschiedene Algorithmen zur Datenanalyse angewendet werden können.",
                 "BANNER": "Modellierung und Analyse von Graphen (JavaScript)"
             },
             "ADVENTOFCODE2023": {
-                "TITTLE": "Advent of Code 2023",
+                "TITLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code ist ein Adventskalender mit kleinen Programmieraufgaben für verschiedene Fähigkeiten und Fertigkeitsstufen, die in jeder Programmiersprache gelöst werden können, die Ihnen gefällt. Die Leute verwenden sie als Vorbereitung für Vorstellungsgespräche, Unternehmensschulungen, Universitätskurse, Übungsaufgaben, für einen Geschwindigkeitswettbewerb oder um sich gegenseitig herauszufordern.",
                 "BANNER": "Programmier-Rätsel (Rust)"
             },
             "EVNEWYEAR": {
-                "TITTLE": "Evangelion Neujahrs-Timer",
+                "TITLE": "Evangelion Neujahrs-Timer",
                 "CONTENT": "Der Evangelion-Neujahrs-Timer ist ein Timer, der die verbleibende Zeit bis zum nächsten Jahr anzeigt. Es ist eher eine Kuriosität als ein Projekt; Ich habe nur einen Nachmittag damit verbracht. Er ist nur auf PC und einigen Tablets verfügbar. Er ist inspiriert von einer Szene aus einer meiner Lieblingsserien, Evangelion.",
                 "BANNER": "Retro-Timer (VueJS)"
+            },
+            "GOJUON": {
+                "TITLE": "Gojūon",
+                "CONTENT": "Gojūon ist eine Anwendung hauptsächlich für mobile Geräte. Sie können die beiden in der japanischen Schrift verwendeten Silbenschriften überprüfen und üben: Hiragana und Katakana.",
+                "BANNER": "Minispiel (React und Typescript)"
             }
         }
     },
     "SYSTEM": {
-        "TITTLE": "SYSTEM",
+        "TITLE": "SYSTEM",
         "BANNER": "Konfigurationen ändern",
         "SECTIONS": {
             "LANGUAGE": {
-                "TITTLE": "Sprache",
+                "TITLE": "Sprache",
                 "BANNER": "Spracheinstellungen anpassen"
             },
             "SOUND": {
-                "TITTLE": "Ton",
+                "TITLE": "Ton",
                 "BANNER": "Ton­einstellungen anpassen",
                 "LIST": {
                     "MUSIC": "Musik",

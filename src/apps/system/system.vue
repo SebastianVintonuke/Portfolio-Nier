@@ -1,14 +1,14 @@
 <template>
     <div class='container d-flex flex-column'>
         <div class='d-flex pt-1 pb-3'>
-            <animated-span class='text-uppercase' :label='$t("SYSTEM.TITTLE")'></animated-span>
+            <animated-span class='text-uppercase' :label='$t("SYSTEM.TITLE")'></animated-span>
         </div>
         <div class='d-flex flex-fill'>
             <div class='d-flex flex-wrap flex-fill'>
                 <div class='d-flex align-items-center p-3' style='flex: 1 1 50%; min-width: 256px'>
                     <Menu class='fs-4' :menuHandler='{
                         items: ["language", "sound"],
-                        labels: [$t("SYSTEM.SECTIONS.LANGUAGE.TITTLE"), $t("SYSTEM.SECTIONS.SOUND.TITTLE")],
+                        labels: [$t("SYSTEM.SECTIONS.LANGUAGE.TITLE"), $t("SYSTEM.SECTIONS.SOUND.TITLE")],
                         selected: sectionSelected,
                         onChange: onSectionChange
                     }'></Menu>

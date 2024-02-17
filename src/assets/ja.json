@@ -16,11 +16,11 @@
         "CONTINUE": "- 続行するにはクリックしてください -"
     },
     "CONTACT": {
-        "TITTLE": "コンタクト",
+        "TITLE": "コンタクト",
         "BANNER": "ここで私に連絡する方法がいくつかあります",
         "SECTIONS": {
             "FORM": {
-                "TITTLE": "フォーム",
+                "TITLE": "フォーム",
                 "BANNER": "お問い合わせフォーム",
                 "NAME": "名前",
                 "EMAIL": "メールアドレス",
@@ -31,57 +31,62 @@
                 "MESSAGE_ERROR": "エラーが発生したようです。LinkedInは履歴書に記載しています。"
             },
             "CV": {
-                "TITTLE": "履歴書",
+                "TITLE": "履歴書",
                 "BANNER": "私の履歴書",
                 "DOWNLOAD": "ダウンロード"
             }
         }
     },
     "HOME": {
-        "TITTLE": "ホーム",
+        "TITLE": "ホーム",
         "BANNER": "私のウェブサイトへようこそ",
         "CONTENT": "私の名前はSebastian Vintoñukeです。プログラマー/開発者です。現在、ブエノスアイレス大学で情報工学を学んでいます。アプリケーション開発および関連する技術 (データサイエンス、サイバーセキュリティ、ネットワークなど) に特に興味があります。新しい技術や作業手法を学ぶことに熱心です。より読みやすく、信頼性があり、効率的で安全、保守可能なコードを作成するために取り入れています。",
         "QUALIFICATION": "ソフトウェア開発者",
         "INTERFACE_INSPIRED_BY": "インターフェースのインスパイア元"
     },
     "PROJECTS": {
-        "TITTLE": "プロジェクト",
+        "TITLE": "プロジェクト",
         "BANNER": "私のプロジェクトをご覧いただけます",
         "TRY": "試す",
         "GITHUB": "GitHub",
         "PROJECTS": {
             "SOKOBAN": {
-                "TITTLE": "Sokoban Web",
+                "TITLE": "Sokoban Web",
                 "CONTENT": "Sokobanは、日本で生まれたクラシックなパズルゲームで、通常はビデオゲームとして実装されます。オリジナルのゲームは、1980年にHiroyuki Imabayashiによって作成され、彼のゲームでコンピューターに対して競技で勝利しました。Hiroyuki Imabayashiは日本のThinking Rabbit Inc.の社長です。多くのプラットフォーム用に多くのバージョンが登場し、新しいレベルのコレクションが常に作成されています。Sokobanは日本語で「倉庫番」という意味です。",
                 "BANNER": "Webミニゲーム (MEVN: MongoDB、Express、VueJS、NodeJS) "
             },
             "RECOMENDIFY": {
-                "TITTLE": "Recomendify",
+                "TITLE": "Recomendify",
                 "CONTENT": "Recomendifyは、ユーザーが曲の重要性、サイクル、ランク、クラスタリングを取得したり、ユーザーや曲の推奨事項を取得したりするアプリケーションです。このアプリケーションは、SpotifyがTSV形式で公開したデータベースの分析に基づいて機能します。さまざまなグラフをモデル化し、そのデータを分析するためのさまざまなアルゴリズムを適用できます。",
                 "BANNER": "グラフのモデリングと分析 (JavaScript) "
             },
             "ADVENTOFCODE2023": {
-                "TITTLE": "Advent of Code 2023",
+                "TITLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code (アドベント・オブ・コード) は、様々なスキルセットやスキルレベルに対応した小さなプログラミングパズルのアドベントカレンダーです。お好きなプログラミング言語で解くことができます。面接の準備や企業研修、大学の課題、練習問題、スピードコンテスト、またはお互いに挑戦するために利用されています。",
                 "BANNER": "プログラミングパズル (Rust) "
             },
             "EVNEWYEAR": {
-                "TITTLE": "Evangelion New Year Timer",
+                "TITLE": "Evangelion New Year Timer",
                 "CONTENT": "Evangelion New Year Timerは、来年までの残り時間を表示するタイマーです。プロジェクトよりも興味深いものであり、私はそれにたった一日を費やしました。PCおよび一部のタブレットでのみ利用可能です。これは私のお気に入りのシリーズ、エヴァンゲリオンの一場面にインスパイアされています。",
                 "BANNER": "レトロタイマー (VueJS)"
+            },
+            "GOJUON": {
+                "TITLE": "五十音",
+                "CONTENT": "Gojūonは主にモバイルデバイス向けのアプリケーションです。日本語の書き方に使用されるふたつの仮名、ひらがなとカタカナを確認して練習することができます。",
+                "BANNER": "ミニゲーム (ReactとTypescript)"
             }
         }
     },
     "SYSTEM": {
-        "TITTLE": "システム",
+        "TITLE": "システム",
         "BANNER": "設定を変更する",
         "SECTIONS": {
             "LANGUAGE": {
-                "TITTLE": "言語",
+                "TITLE": "言語",
                 "BANNER": "言語設定の調整"
             },
             "SOUND": {
-                "TITTLE": "音声",
+                "TITLE": "音声",
                 "BANNER": "音声設定の調整",
                 "LIST": {
                     "MUSIC": "音楽",

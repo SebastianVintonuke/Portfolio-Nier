@@ -1,14 +1,14 @@
 <template>
     <div class='container d-flex flex-column'>
         <div class='d-flex pt-1 pb-3'>
-            <animated-span class='text-uppercase' :label='$t("CONTACT.TITTLE")'></animated-span>
+            <animated-span class='text-uppercase' :label='$t("CONTACT.TITLE")'></animated-span>
         </div>
         <div class='d-flex flex-fill'>
             <div class='d-flex flex-wrap flex-fill'>
                 <div class='d-flex align-items-center p-3' style='flex: 1 1 50%; min-width: 256px'>
                     <Menu class='fs-4' :menuHandler='{
                         items: ["form", "cv"],
-                        labels: [$t("CONTACT.SECTIONS.FORM.TITTLE"), $t("CONTACT.SECTIONS.CV.TITTLE")],
+                        labels: [$t("CONTACT.SECTIONS.FORM.TITLE"), $t("CONTACT.SECTIONS.CV.TITLE")],
                         selected: sectionSelected,
                         onChange: onSectionChange
                     }'></Menu>
@@ -16,11 +16,11 @@
                 <div class='d-flex align-items-center p-3' style='flex: 1 1 50%; min-width: 256px'>
                     <div class='d-flex flex-fill'>
                         <card v-if='sectionSelected === "form"' class='fs-4'
-                            :cardHandler='{ label: $t("CONTACT.SECTIONS.FORM.TITTLE"), icon: "" }'>
+                            :cardHandler='{ label: $t("CONTACT.SECTIONS.FORM.TITLE"), icon: "" }'>
                             <Form></Form>
                         </card>
                         <card v-if='sectionSelected === "cv"' class='fs-4'
-                            :cardHandler='{ label: $t("CONTACT.SECTIONS.CV.TITTLE"), icon: "" }'>
+                            :cardHandler='{ label: $t("CONTACT.SECTIONS.CV.TITLE"), icon: "" }'>
                             <div class='d-flex flex-column gap-2'>
                                 <div class='align-self-center' style='width: 63mm; height: 89.1mm'>
                                     <Cv

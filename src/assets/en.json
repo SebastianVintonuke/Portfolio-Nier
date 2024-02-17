@@ -16,11 +16,11 @@
         "CONTINUE": "- Click to continue -"
     },
     "CONTACT": {
-        "TITTLE": "CONTACT",
+        "TITLE": "CONTACT",
         "BANNER": "Here you can find some ways to contact me",
         "SECTIONS": {
             "FORM": {
-                "TITTLE": "Form",
+                "TITLE": "Form",
                 "BANNER": "Contact form",
                 "NAME": "Name",
                 "EMAIL": "Email Address",
@@ -31,57 +31,62 @@
                 "MESSAGE_ERROR": "It seems an error has occurred, you can find my LinkedIn on my CV."
             },
             "CV": {
-                "TITTLE": "Curriculum Vitae",
+                "TITLE": "Curriculum Vitae",
                 "BANNER": "My Curriculum Vitae",
                 "DOWNLOAD": "Download"
             }
         }
     },
     "HOME": {
-        "TITTLE": "HOME",
+        "TITLE": "HOME",
         "BANNER": "Welcome to my website",
         "CONTENT": "My name is Sebastian Vintoñuke, I am a programmer/developer. Currently, I am also a Computer Engineering student at the University of Buenos Aires. I have a special interest in technology related to application development and its areas like data science, cybersecurity, or networks. I consider myself enthusiastic about learning new technologies and work methodologies. Incorporating everything that allows me to create more readable, reliable, efficient, secure, and maintainable code.",
         "QUALIFICATION": "Software Developer",
         "INTERFACE_INSPIRED_BY": "Interface inspired by"
     },
     "PROJECTS": {
-        "TITTLE": "PROJECTS",
+        "TITLE": "PROJECTS",
         "BANNER": "Here you can see some of my projects",
         "TRY": "Try",
         "GITHUB": "GitHub",
         "PROJECTS": {
             "SOKOBAN": {
-                "TITTLE": "Sokoban Web",
+                "TITLE": "Sokoban Web",
                 "CONTENT": "Sokoban is a classic puzzle game invented in Japan, usually implemented as a video game. The original game was created by Hiroyuki Imabayashi, who in 1980 won a competition against a computer with his game. Hiroyuki Imabayashi is the president of Thinking Rabbit Inc. in Japan. Over the years, many versions of the game have appeared for all platforms, and new collections of levels are constantly being created. Sokoban means 'warehouse keeper' in Japanese.",
                 "BANNER": "Web Minigame (MEVN: MongoDB, Express, VueJS, and NodeJS)"
             },
             "RECOMENDIFY": {
-                "TITTLE": "Recomendify",
+                "TITLE": "Recomendify",
                 "CONTENT": "Recomendify is an application that allows the user to obtain data about songs such as importance, cycles, ranges, clustering, and get recommendations of users or songs. The application works on the analysis of a database released by Spotify in TSV format. Different graphs are modeled that allow us to apply various algorithms for the analysis of their data.",
                 "BANNER": "Graph Modeling and Analysis (JavaScript)"
             },
             "ADVENTOFCODE2023": {
-                "TITTLE": "Advent of Code 2023",
+                "TITLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.",
                 "BANNER": "Programming Puzzles (Rust)"
             },
             "EVNEWYEAR": {
-                "TITTLE": "Evangelion New Year Timer",
+                "TITLE": "Evangelion New Year Timer",
                 "CONTENT": "Evangelion New Year Timer is a timer that displays the time remaining until the next year. It's more of a curiosity than a project; I've only dedicated an afternoon to it. It's only available on PC and some tablets. It's inspired by a scene from one of my favorite series, Evangelion.",
                 "BANNER": "Retro Timer (VueJS)"
+            },
+            "GOJUON": {
+                "TITLE": "Gojūon",
+                "CONTENT": "Gojuon is an application primarily designed for mobile devices. You can consult and practice the two syllabaries used in Japanese writing: Hiragana and Katakana.",
+                "BANNER": "Mini-game (React and Typescript)"
             }
         }
     },
     "SYSTEM": {
-        "TITTLE": "SYSTEM",
+        "TITLE": "SYSTEM",
         "BANNER": "Change settings",
         "SECTIONS": {
             "LANGUAGE": {
-                "TITTLE": "Language",
+                "TITLE": "Language",
                 "BANNER": "Adjust language settings"
             },
             "SOUND": {
-                "TITTLE": "Sound",
+                "TITLE": "Sound",
                 "BANNER": "Adjust sound settings",
                 "LIST": {
                     "MUSIC": "Music",

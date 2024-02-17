@@ -16,11 +16,11 @@
         "CONTINUE": "- Cliquez pour continuer -"
     },
     "CONTACT": {
-        "TITTLE": "CONTACT",
+        "TITLE": "CONTACT",
         "BANNER": "Vous pouvez trouver ici quelques façons de me contacter",
         "SECTIONS": {
             "FORM": {
-                "TITTLE": "Formulaire",
+                "TITLE": "Formulaire",
                 "BANNER": "Formulaire de contact",
                 "NAME": "Nom",
                 "EMAIL": "Adresse e-mail",
@@ -31,57 +31,62 @@
                 "MESSAGE_ERROR": "Il semble qu'une erreur soit survenue, vous pouvez trouver mon LinkedIn dans mon CV."
             },
             "CV": {
-                "TITTLE": "Curriculum vitae",
+                "TITLE": "Curriculum vitae",
                 "BANNER": "Mon CV",
                 "DOWNLOAD": "Télécharger"
             }
         }
     },
     "HOME": {
-        "TITTLE": "ACCUEIL",
+        "TITLE": "ACCUEIL",
         "BANNER": "Bienvenue sur mon site web",
         "CONTENT": "Je m'appelle Sebastian Vintoñuke, je suis programmeur/développeur. Actuellement, je suis également étudiant en informatique à l'Université de Buenos Aires. Je m'intéresse particulièrement aux technologies orientées vers le développement d'applications et à leurs domaines tels que la science des données, la cybersécurité ou les réseaux. Je suis enthousiaste à l'idée d'apprendre de nouvelles technologies et méthodologies de travail. J'essaie d'incorporer tout ce qui me permet de créer un code plus lisible, fiable, efficace, sûr et maintenable.",
         "QUALIFICATION": "Développeur de logiciels",
         "INTERFACE_INSPIRED_BY": "Interface inspirée par"
     },
     "PROJECTS": {
-        "TITTLE": "PROJETS",
+        "TITLE": "PROJETS",
         "BANNER": "Vous pouvez voir ici quelques-uns de mes projets",
         "TRY": "Essayer",
         "GITHUB": "GitHub",
         "PROJECTS": {
             "SOKOBAN": {
-                "TITTLE": "Sokoban Web",
+                "TITLE": "Sokoban Web",
                 "CONTENT": "Sokoban est un jeu de puzzle classique inventé au Japon, généralement implémenté sous forme de jeu vidéo. Le jeu original a été créé par Hiroyuki Imabayashi, qui a remporté en 1980 une compétition contre un ordinateur avec son jeu. Hiroyuki Imabayashi est président de Thinking Rabbit Inc. au Japon. Au fil des ans, de nombreuses versions du jeu sont apparues sur toutes les plateformes et de nouvelles collections de niveaux sont constamment créées. Sokoban signifie 'gardien de l'entrepôt' en japonais.",
                 "BANNER": "Mini-jeu Web (MEVN : MongoDB, Express, VueJS et NodeJS)"
             },
             "RECOMENDIFY": {
-                "TITTLE": "Recomendify",
+                "TITLE": "Recomendify",
                 "CONTENT": "Recomendify est une application qui permet à l'utilisateur d'obtenir des données sur des chansons telles que : importance, cycles, plages, clustering et d'obtenir des recommandations d'utilisateurs ou de chansons. L'application fonctionne sur l'analyse d'une base de données libérée par Spotify au format TSV. Différents graphes sont modélisés pour appliquer divers algorithmes à l'analyse de leurs données.",
                 "BANNER": "Modélisation et analyse de graphes (JavaScript)"
             },
             "ADVENTOFCODE2023": {
-                "TITTLE": "Advent of Code 2023",
+                "TITLE": "Advent of Code 2023",
                 "CONTENT": "Advent of Code est un calendrier de l'Avent composé de petits casse-têtes de programmation adaptés à divers ensembles de compétences et niveaux de compétence pouvant être résolus dans le langage de programmation de votre choix. Les gens les utilisent pour se préparer aux entretiens, pour la formation en entreprise, pour les cours universitaires, comme exercices pratiques, lors de concours de vitesse ou pour se défier mutuellement.",
                 "BANNER": "Cas de programmation (Rust)"
             },
             "EVNEWYEAR": {
-                "TITTLE": "Evangelion New Year Timer",
+                "TITLE": "Evangelion New Year Timer",
                 "CONTENT": "Evangelion New Year Timer est un minuteur qui affiche le temps restant jusqu'à la prochaine année. C'est plus une curiosité qu'un projet ; je n'y ai consacré qu'un après-midi. Il n'est disponible que sur PC et certaines tablettes. Il est inspiré d'une scène de l'une de mes séries préférées, Evangelion.",
                 "BANNER": "Minuteur Rétro (VueJS)"
+            },
+            "GOJUON": {
+                "TITLE": "Gojūon",
+                "CONTENT": "Gojūon est une application principalement conçue pour les appareils mobiles. Vous pouvez consulter et pratiquer les deux syllabaires utilisés dans l'écriture japonaise : le hiragana et le katakana.",
+                "BANNER": "Mini-jeu (React et Typescript)"
             }
         }
     },
     "SYSTEM": {
-        "TITTLE": "SYSTÈME",
+        "TITLE": "SYSTÈME",
         "BANNER": "Modifier les paramètres",
         "SECTIONS": {
             "LANGUAGE": {
-                "TITTLE": "Langue",
+                "TITLE": "Langue",
                 "BANNER": "Configurer les paramètres de langue"
             },
             "SOUND": {
-                "TITTLE": "Son",
+                "TITLE": "Son",
                 "BANNER": "Configurer les paramètres audio",
                 "LIST": {
                     "MUSIC": "Musique",

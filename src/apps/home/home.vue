@@ -1,7 +1,7 @@
 <template>
     <div class='container d-flex flex-column'>
         <div class='d-flex pt-1 pb-3'>
-            <animated-span class='text-uppercase' :label='$t("HOME.TITTLE")'></animated-span>
+            <animated-span class='text-uppercase' :label='$t("HOME.TITLE")'></animated-span>
         </div>
         <div class='d-flex flex-fill'>
             <div class='d-flex flex-column justify-content-between gap-5 py-3'>
