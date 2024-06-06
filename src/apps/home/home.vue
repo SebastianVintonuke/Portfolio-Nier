@@ -14,7 +14,7 @@
                 </card>
                 <div class='d-flex flex-row-reverse'>
                     <div class='d-flex flex-column flex-fill' style='max-width: 300px'>
-                        <div class='d-flex flex-column gap-1 text-nowrap lh-1'>
+                        <div class='d-flex flex-column gap-1 text-nowrap lh-1' style='visibility: hidden'>
                             <span class='fs-6 text-start'>{{ $t('HOME.INTERFACE_INSPIRED_BY') }}</span>
                             <hr>
                             <span class='fs-4 fw-medium text-start'> NieRAutomata™ </span>

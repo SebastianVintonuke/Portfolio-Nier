@@ -84,17 +84,17 @@
                                 </div>
                                 <div class='d-flex align-items-baseline gap-1'>
                                     <div class="dot b-secondary"></div>
-                                    <span class='fs-6 fw-medium primary'> CSS /SASS </span>
+                                    <span class='fs-6 fw-medium primary'> CSS SASS </span>
                                 </div>
                                 <div class='d-flex align-items-baseline gap-1'>
                                     <div class="dot b-secondary"></div>
-                                    <span class='fs-6 fw-medium primary'> JS /TypeScript </span>
+                                    <span class='fs-6 fw-medium primary'> JS TypeScript </span>
                                 </div>
                             </div>
                             <div class='d-flex flex-column gap-2'>
                                 <div class='d-flex align-items-baseline gap-1'>
                                     <div class="dot b-secondary"></div>
-                                    <span class='fs-6 fw-medium primary'> Vue.js </span>
+                                    <span class='fs-6 fw-medium primary'> React Vue </span>
                                 </div>
                                 <div class='d-flex align-items-baseline gap-1'>
                                     <div class="dot b-secondary"></div>
