@@ -74,6 +74,11 @@
                 "TITLE": "Gojūon",
                 "CONTENT": "Gojūon ist eine Anwendung hauptsächlich für mobile Geräte. Sie können die beiden in der japanischen Schrift verwendeten Silbenschriften überprüfen und üben: Hiragana und Katakana.",
                 "BANNER": "Minispiel (React und Typescript)"
+            },
+            "ROUTINGTABLE": {
+                "TITLE": "Routing-Tabelle",
+                "CONTENT": "Eine minimalistische Webanwendung zur Unterstützung bei akademischen Übungen zur Optimierung von Routing-Tabellen. Dieses Projekt soll Studierenden dabei helfen zu verstehen, wie Routing-Tabellen optimiert werden können, indem redundante, aufeinanderfolgende oder enthaltene Einträge automatisch erkannt und entfernt werden. Es dient sowohl als Lernhilfe als auch als schrittweiser Visualisierer für gängige Optimierungsstrategien, die in Computernetzwerken unterrichtet werden.",
+                "BANNER": "Routing-Optimierer (VueJS und TypeScript)"
             }
         }
     },

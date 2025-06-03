@@ -48,5 +48,14 @@ export const PROJECTS: Project[] = [{
         imgSrc: '/img/gojuon.jpg',
         demoLink: 'https://gojuon.vercel.app/',
         gitHubLink: 'https://github.com/SebastianVintonuke/Gojuon'
-    }
+    },{
+        id: 'routing-table',
+        tittleToken: 'PROJECTS.PROJECTS.ROUTINGTABLE.TITLE',
+        contentToken: 'PROJECTS.PROJECTS.ROUTINGTABLE.CONTENT',
+        bannerToken: 'PROJECTS.PROJECTS.ROUTINGTABLE.BANNER',
+        imgSrc: '/img/routingtable.jpg',
+        demoLink: 'https://routing-table.vercel.app/',
+        gitHubLink: 'https://github.com/SebastianVintonuke/RoutingTable'
+    },
+
 ]

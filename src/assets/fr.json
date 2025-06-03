@@ -74,6 +74,11 @@
                 "TITLE": "Gojūon",
                 "CONTENT": "Gojūon est une application principalement conçue pour les appareils mobiles. Vous pouvez consulter et pratiquer les deux syllabaires utilisés dans l'écriture japonaise : le hiragana et le katakana.",
                 "BANNER": "Mini-jeu (React et Typescript)"
+            },
+            "ROUTINGTABLE": {
+                "TITLE": "Table de Routage",
+                "CONTENT": "Une application web minimaliste conçue pour aider à résoudre des exercices académiques d'optimisation de tables de routage. Ce projet vise à aider les étudiants à comprendre comment les tables de routage peuvent être optimisées en détectant et supprimant automatiquement les entrées redondantes, consécutives ou incluses. Il est destiné à la fois comme outil pédagogique et comme visualiseur pas à pas des stratégies d'optimisation courantes enseignées dans les cours de réseaux informatiques.",
+                "BANNER": "Optimiseur de Routage (VueJS et TypeScript)"
             }
         }
     },
